@@ -1,10 +1,13 @@
 import React from 'react'
 import { FC } from 'react'
+import { View, Text } from 'react-native'
 
 const Home: FC = () => {
-  return (
-    <div>Home</div>
-  )
+	return (
+		<View>
+			<Text>Home</Text>
+		</View>
+	)
 }
 
 export default Home

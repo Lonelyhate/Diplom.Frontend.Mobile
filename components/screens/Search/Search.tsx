@@ -1,9 +1,12 @@
-import React, {FC} from 'react'
+import React, { FC } from 'react'
+import { View, Text } from 'react-native'
 
 const Search: FC = () => {
-  return (
-    <div>Search</div>
-  )
+	return (
+		<View>
+			<Text>Search</Text>
+		</View>
+	)
 }
 
 export default Search

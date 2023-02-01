@@ -1,9 +1,12 @@
 import React from 'react'
 import { FC } from 'react'
+import {View, Text} from "react-native"
 
 const Profile: FC = () => {
   return (
-    <div>Profile</div>
+    <View>
+			<Text>Profile</Text>
+		</View>
   )
 }
 

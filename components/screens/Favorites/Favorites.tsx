@@ -1,9 +1,12 @@
-import React, {FC} from 'react'
+import React, { FC } from 'react'
+import { View, Text } from 'react-native'
 
 const Favorites: FC = () => {
-  return (
-    <div>Favorites</div>
-  )
+	return (
+		<View>
+			<Text>Favorites</Text>
+		</View>
+	)
 }
 
 export default Favorites

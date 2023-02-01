@@ -1,8 +1,11 @@
 import React, {FC} from 'react'
+import { View, Text } from 'react-native'
 
 const Cart: FC = () => {
   return (
-    <div>Cart</div>
+    <View>
+			<Text>Cart</Text>
+		</View>
   )
 }
 

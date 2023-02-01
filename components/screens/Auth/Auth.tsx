@@ -1,10 +1,13 @@
 import React from 'react'
 import { FC } from 'react'
+import { View, Text } from 'react-native'
 
 const Auth: FC = () => {
-  return (
-    <div>Auth</div>
-  )
+	return (
+		<View>
+			<Text>Auth</Text>
+		</View>
+	)
 }
 
 export default Auth
