@@ -9,7 +9,7 @@ const Navigator = () => {
 	return (
 		<NavigationContainer>
 			<Stack.Navigator screenOptions={{ headerShown: false }}>
-				<Stack.Screen name={'Home'} component={BottomMenu} />
+				<Stack.Screen name={'BottomMenu'} component={BottomMenu} />
 			</Stack.Navigator>
 		</NavigationContainer>
 	)
